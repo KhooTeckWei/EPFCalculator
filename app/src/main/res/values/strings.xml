@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EPF Calculator</string>
+    <string name="date_of_birth">Select you Date of Birth</string>
+    <string name="age">Your Age: </string>
+    <string name="saving_amount">Your Minimum Savings Amount:</string>
+    <string name="reset">Reset</string>
+</resources>

@@ -22,9 +22,8 @@ class MainActivity : AppCompatActivity() {
 
             override fun onDateSet(view : DatePicker, year : Int, month: Int, day: Int){
 
-                // Select and Set the date to calendar
                 epfCalculator.set(year, month, day)
-                // Update date in EditText view
+
                 val dateFormat = "dd/MM/yyyy"
                 val simpleDateFormat = SimpleDateFormat(dateFormat, Locale.CHINA)
 
